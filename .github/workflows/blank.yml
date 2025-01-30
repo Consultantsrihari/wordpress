@@ -15,8 +15,7 @@ jobs:
 
       - name: Deploy to AWS EC2
         env:
-          SSH_KEY: ${{ secrets.SHA256:Maq/HKXzWiYLmQPbQO+TCP2Cd6FatQ2g38dKvbuhJI0
- }}
+          SSH_KEY: ${{ secrets.SHA256:Maq/HKXzWiYLmQPbQO+TCP2Cd6FatQ2g38dKvbuhJI0 }}
           SERVER_IP: ${{ secrets.35.169.159.103 }}
           USER: ubuntu
         run: |
